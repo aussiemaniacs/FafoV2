@@ -592,6 +592,7 @@ function App() {
           <Route path="/youtube" element={<MediaCategory category="youtube" title="YouTube" icon="▶️" />} />
           <Route path="/add-media" element={<AddMedia />} />
           <Route path="/custom-lists" element={<CustomLists />} />
+          <Route path="/lists/:listId" element={<CustomLists />} />
         </Routes>
       </BrowserRouter>
     </div>
