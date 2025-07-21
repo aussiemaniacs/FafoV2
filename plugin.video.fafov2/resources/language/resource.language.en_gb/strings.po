@@ -1,0 +1,199 @@
+# FafoV2 Language Strings (English GB)
+
+# General Settings (30001-30009)
+msgid "30001"
+msgstr "General"
+
+msgid "30002"
+msgstr "Enable debug logging"
+
+msgid "30003"
+msgstr "Maximum search results"
+
+msgid "30004"
+msgstr "Default video quality"
+
+msgid "30005"
+msgstr "Auto-play trailers"
+
+# YouTube Settings (30010-30019)
+msgid "30010"
+msgstr "YouTube"
+
+msgid "30011"
+msgstr "YouTube API Key (optional)"
+
+msgid "30012"
+msgstr "YouTube region"
+
+msgid "30013"
+msgstr "Safe search filter"
+
+msgid "30014"
+msgstr "Prefer yt-dlp over YouTube plugin"
+
+# Playback Settings (30020-30029)
+msgid "30020"
+msgstr "Playback"
+
+msgid "30021"
+msgstr "Use external player"
+
+msgid "30022"
+msgstr "Buffer mode"
+
+msgid "30023"
+msgstr "Seek step size (seconds)"
+
+msgid "30024"
+msgstr "Preferred subtitle language"
+
+# Lists Settings (30030-30039)
+msgid "30030"
+msgstr "Custom Lists"
+
+msgid "30031"
+msgstr "Auto-add watched items to lists"
+
+msgid "30032"
+msgstr "Maximum items per list"
+
+msgid "30033"
+msgstr "Auto-backup lists"
+
+msgid "30034"
+msgstr "Sync lists with cloud (future feature)"
+
+# Advanced Settings (30040-30049)
+msgid "30040"
+msgstr "Advanced"
+
+msgid "30041"
+msgstr "Cache size (MB)"
+
+msgid "30042"
+msgstr "Request timeout (seconds)"
+
+msgid "30043"
+msgstr "User agent string"
+
+msgid "30044"
+msgstr "Clear cache"
+
+msgid "30045"
+msgstr "Export all data"
+
+msgid "30046"
+msgstr "Import data from file"
+
+# Menu Items (30100-30199)
+msgid "30100"
+msgstr "Movies"
+
+msgid "30101"
+msgstr "TV Series"
+
+msgid "30102"
+msgstr "Live TV"
+
+msgid "30103"
+msgstr "YouTube"
+
+msgid "30104"
+msgstr "Custom Lists"
+
+msgid "30105"
+msgstr "Search"
+
+msgid "30106"
+msgstr "Add Direct Link"
+
+msgid "30107"
+msgstr "Settings"
+
+msgid "30108"
+msgstr "Create New List"
+
+msgid "30109"
+msgstr "Manage Lists"
+
+# Messages (30200-30299)
+msgid "30200"
+msgstr "Loading..."
+
+msgid "30201"
+msgstr "No items found"
+
+msgid "30202"
+msgstr "Search failed"
+
+msgid "30203"
+msgstr "Invalid URL"
+
+msgid "30204"
+msgstr "Playback failed"
+
+msgid "30205"
+msgstr "List created successfully"
+
+msgid "30206"
+msgstr "Item added to list"
+
+msgid "30207"
+msgstr "List deleted"
+
+msgid "30208"
+msgstr "Export completed"
+
+msgid "30209"
+msgstr "Import completed"
+
+# Errors (30300-30399)
+msgid "30300"
+msgstr "Network error"
+
+msgid "30301"
+msgstr "Video not available"
+
+msgid "30302"
+msgstr "YouTube API error"
+
+msgid "30303"
+msgstr "Unsupported format"
+
+msgid "30304"
+msgstr "Access denied"
+
+msgid "30305"
+msgstr "Timeout error"
+
+# Dialogs (30400-30499)
+msgid "30400"
+msgstr "Enter search term"
+
+msgid "30401"
+msgstr "Enter media URL"
+
+msgid "30402"
+msgstr "Enter title"
+
+msgid "30403"
+msgstr "Select category"
+
+msgid "30404"
+msgstr "Enter list name"
+
+msgid "30405"
+msgstr "Enter description (optional)"
+
+msgid "30406"
+msgstr "Select list"
+
+msgid "30407"
+msgstr "Are you sure?"
+
+msgid "30408"
+msgstr "Delete this item?"
+
+msgid "30409"
+msgstr "Clear all data?"
