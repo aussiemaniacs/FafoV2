@@ -16,6 +16,7 @@ from datetime import datetime
 import xbmc
 import xbmcvfs
 import xbmcaddon
+import xbmcgui
 
 ADDON = xbmcaddon.Addon()
 logger = logging.getLogger(__name__)
