@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+    <category id="general" label="30001">
+        <setting id="debug_logging" type="bool" label="30002" default="false"/>
+        <setting id="max_search_results" type="number" label="30003" default="20" option="int" minimum="5" maximum="100"/>
+        <setting id="default_video_quality" type="select" label="30004" default="720p" values="480p|720p|1080p|best"/>
+        <setting id="auto_play_trailers" type="bool" label="30005" default="false"/>
+    </category>
+    
+    <category id="youtube" label="30010">
+        <setting id="youtube_api_key" type="text" label="30011" default="" option="hidden"/>
+        <setting id="youtube_region" type="select" label="30012" default="US" values="US|GB|CA|AU|DE|FR|JP|IN"/>
+        <setting id="youtube_safe_search" type="select" label="30013" default="moderate" values="none|moderate|strict"/>
+        <setting id="prefer_yt_dlp" type="bool" label="30014" default="true"/>
+    </category>
+    
+    <category id="playback" label="30020">
+        <setting id="use_external_player" type="bool" label="30021" default="false"/>
+        <setting id="buffer_mode" type="select" label="30022" default="1" values="0|1|2"/>
+        <setting id="seek_steps" type="number" label="30023" default="30" option="int" minimum="10" maximum="300"/>
+        <setting id="subtitle_language" type="select" label="30024" default="en" values="en|es|fr|de|it|pt|ja|ko|zh"/>
+    </category>
+    
+    <category id="lists" label="30030">
+        <setting id="auto_add_watched" type="bool" label="30031" default="false"/>
+        <setting id="max_list_items" type="number" label="30032" default="1000" option="int" minimum="50" maximum="5000"/>
+        <setting id="backup_lists" type="bool" label="30033" default="true"/>
+        <setting id="sync_with_cloud" type="bool" label="30034" default="false"/>
+    </category>
+    
+    <category id="advanced" label="30040">
+        <setting id="cache_size" type="number" label="30041" default="100" option="int" minimum="10" maximum="1000"/>
+        <setting id="request_timeout" type="number" label="30042" default="30" option="int" minimum="5" maximum="120"/>
+        <setting id="user_agent" type="text" label="30043" default="FafoV2/2.0"/>
+        <setting id="clear_cache" type="action" label="30044" action="RunPlugin(plugin://plugin.video.fafov2/?action=clear_cache)"/>
+        <setting id="export_data" type="action" label="30045" action="RunPlugin(plugin://plugin.video.fafov2/?action=export_data)"/>
+        <setting id="import_data" type="action" label="30046" action="RunPlugin(plugin://plugin.video.fafov2/?action=import_data)"/>
+    </category>
+</settings>
