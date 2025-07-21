@@ -1,0 +1,4 @@
+# This would be a PNG icon file in a real addon
+# For now, creating a placeholder text file indicating where the icon should be
+# In a real deployment, this would be a 256x256 PNG image file
+PLACEHOLDER: FafoV2 Addon Icon (256x256 PNG)

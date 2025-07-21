@@ -1,0 +1,4 @@
+# This would be a JPG fanart file in a real addon  
+# For now, creating a placeholder text file indicating where the fanart should be
+# In a real deployment, this would be a 1280x720 JPG background image
+PLACEHOLDER: FafoV2 Addon Fanart (1280x720 JPG)
