@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.fafov2" name="FafoV2" version="2.0.0" provider-name="aussiemaniacs">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.31.0"/>
+        <import addon="script.module.six" version="1.16.0"/>
+        <import addon="script.module.kodi-six" version="0.1.3"/>
+        <import addon="script.module.future" version="0.18.3"/>
+        <import addon="plugin.video.youtube" version="7.0.0" optional="true"/>
+        <import addon="script.module.resolveurl" version="5.1.0" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GPL-3.0-only</license>
+        <forum>https://github.com/aussiemaniacs/FafoV2/issues</forum>
+        <website>https://github.com/aussiemaniacs/FafoV2</website>
+        <source>https://github.com/aussiemaniacs/FafoV2</source>
+        <summary lang="en_GB">FafoV2 - Advanced Media Center Addon</summary>
+        <description lang="en_GB">FafoV2 is a comprehensive media addon that provides access to movies, TV series, live TV, and YouTube content. Features include YouTube trailer integration via yt-dlp, custom playlist management, direct link support for all video formats, and live TV streaming capabilities. The addon supports multiple lists, channel browsing, and seamless integration with Kodi's native video player.</description>
+        <disclaimer lang="en_GB">This addon does not host or distribute any content. Users are responsible for ensuring their use complies with local laws and regulations. The addon provides access to publicly available content only.</disclaimer>
+        <news>
+v2.0.0 (2025-07-21)
+- Complete rewrite with modern Kodi framework
+- YouTube integration with yt-dlp support
+- Custom lists and playlist management
+- Direct link support for all video formats
+- Live TV streaming capabilities
+- Enhanced user interface and navigation
+- Multi-list support with advanced organization
+- Improved video quality selection
+- Better error handling and logging
+        </news>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+            <screenshot>resources/media/screenshot01.jpg</screenshot>
+            <screenshot>resources/media/screenshot02.jpg</screenshot>
+            <screenshot>resources/media/screenshot03.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
